@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Task Manager</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="form-section">
+        <h2>Add a New Task</h2>
+        <form id="task-form">
+          <label for="task">Task:</label>
+          <input type="text" id="task" name="task" placeholder="Enter task name" required>
+          <button type="submit">Add Task</button>
+        </form>
+      </section>
+
+      <section class="task-section">
+        <h2>Tasks</h2>
+        <ul id="task-list">
+          <!-- Task list will be populated here -->
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 My Web Application. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
